@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-oct-2021, 13:23:45
+    Author     : Katthya
+*/
+
+
+/* Esta sección se define el fondo de la pagina y sus características.*/
+body{background-image: url("../Images/Fondo.PNG");
+     front-family: Californian FB; 
+     background-color: white; 
+     background-repeat: no-repeat;}
+
+/* Seccion del formulario de la pagina web principal */
+form{margin-left: 60px; margin-top: 75px; 
+     height: 480px; width: 300px; background-color: 
+         whitesmoke; border-radius: 10px;}
+
+/* Codigo para el diseño de titulos y texto*/
+legend{color: #ff3300; front-family: Californian FB; text-align: center;}
+
+#txtnombre{color: black; text-decoration: none;
+           padding: 5px 40px;
+           display: block;
+           margin: 5px auto;
+           border-color: lightgrey;
+           border-radius: 8px; text-align: center; background: white;}
+
+#txtmonto{color: black; text-decoration: none;
+          padding: 5px 40px;
+          display: block;
+          margin: 5px auto;
+          border-color: lightgrey;
+          border-radius: 8px; text-align: center; 
+          background: white; margin-block-end: 16px;}
+
+.nombre1 {margin-left: 30px; font-size: 13px; color: #333333;}
+
+.monto2 {margin-left: 30px; font-size: 13px; color: #333333;}
+
+.cantyears{margin-left: 30px; font-size: 13px; color: #333333;}
+
+/* Aquí se diseño las medidas y disposición de elementos de la pagina, en este caso es el botón. */
+#btncotizar{color: white; text-decoration: none;
+            padding: 5px 80px;
+            display: block;
+            margin: 5px auto;
+            border-radius: 20px; text-align: center; 
+            background: darkorange; margin-block-end: 16px;}
+
+/*Detalles para la separación de secciones de contenido. */
+hr{border-color: orange; border-style: dotted}
+
+/*Estas son las cajas de selección para los seguros ofrecidos, en donde se 
+definen medidas, disposición del contenido y colores */
+#S1{border-color: lightgray; margin-top: 15px; border-radius: 10px; 
+    margin-left: 30px; margin-right:30px; text-align: center; 
+    border-style: double}
+
+#S2{border-color: lightgray; margin-top: 15px; border-radius: 10px; 
+    margin-left: 30px; margin-right:30px; text-align: center; 
+    border-style: double}
+
+/*Aquí se define el diseño de la caja de selección de cantidad de cuotas*/
+#selectcuota{padding: 2px 20px;
+             display: compact;
+             border-radius: 8px; text-align: center; 
+             border: 2px lightgrey solid; margin-left:15px}
+
+/*Aquí se define el diseño de la del boton que da enlace a la otra interfaz*/
+#btncotizar{color: white; text-decoration: none;
+            padding: 5px 80px;
+            display: block;
+            margin: 18px auto;
+            border-radius: 19px; text-align: center; background: orangered;}
+
+
+/*Con el fin de mejorar la experiencia de usuario, en nuestra interfaz en el 
+apartado de indicar el monto del crédito hipotecario en UF,  se deja un enlace 
+por medio de un icono que dirige a una pagina externa (al ingresar al enlace, 
+se abrirá una pestaña aparte en el navegador), en donde se encuentra un 
+convertidor de UF a pesos y viceversa, logrando que el usuario pueda conocer el 
+monto que quiera solicitar y posteriormente dirigirse a nuestra pagina y 
+colocar este en la caja de texto correspondiente*/
+#UF{position: fixed; margin-left: 370px; margin-top: 310px;}
+#convertUF{position: fixed; margin-left: 425px; margin-top: 340px; 
+           font-size: 12px; color: white;}

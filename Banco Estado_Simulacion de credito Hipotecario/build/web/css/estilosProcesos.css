@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-oct-2021, 18:52:01
+    Author     : Katthya
+*/
+
+
+/* Esta sección se define el fondo de la pagina y sus características.*/
+body{background-image: url("../Images/Fondo Procesos.PNG"); 
+     front-family: Californian FB; 
+     background-color: white; 
+     background-repeat: no-repeat;}
+
+/* Sección de titulo y texto introductorio. */
+h1{margin-left: 10px; color: #ff7000;}
+p{margin-left: 10px; color: black;}
+
+/*Detalles para la separación de secciones de contenido. */
+hr{border-color: orange; border-style: dotted}
+
+/*En esta sección se encuentra la tabla de contenidos, en donde se definieron 
+características visuales, medidas, y colores.*/
+#tabla{margin-left: 310px; margin-top: 35px; 
+       height: 90px; border-radius: 10px; border-style: none; 
+       border-color: lavender; margin-block-end: 10px; text-align: center}
+
+th{background-color:  lightslategrey; height: 35px; color: white; 
+   font-size: 14px; text-align: center}
+
+/*Este apartado permite al usuario poder devolverse a la interfaz anterior 
+(formulario de ingreso de datos) para así colocar nuevos datos. Esto se 
+realiza gracias a un enlace, en donde es visualizado por un texto y un icono.*/
+img{position: fixed; margin-left: 310px; margin-top: 25px;}
+#volvertxt{margin-left: 360px;font-size: 15px; color: #333333;}
+
+
+/* Esta sección se colocara el aspecto visual del mensaje de error correspondiente
+(Error al ingresar un monto inferior a 1 y no seleccionar un seguro).*/
+
+#mensajetxt{margin-left: 100px;font-size: 25px; color: black; margin-top: 220px; text-align: center;}
+#mensajeVolver{margin-left: 670px;font-size: 25px; color: orange;}
+#Volverimg{position: fixed; margin-left: 610px; margin-top: 65px;}
